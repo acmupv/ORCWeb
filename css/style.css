@@ -1,1 +1,124 @@
-*{box-sizing:border-box;padding:0;margin:0}/*# sourceMappingURL=style.css.map */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color1: #f8f7f3;
+    --color2: #3a78ef;
+    --color3: #ffc838;
+    --color4: #74a990;
+    --fontColor1: #000000;
+    --fontColor2: #fefdfb;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: var(--fontColor1);
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    text-align: right;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.nav-links a {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 6px 12px;
+    transition: 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #cecece;
+}
+
+.form-button {
+    color: var(--fontColor2);
+    background-color: var(--fontColor1);
+}
+
+.form-button:hover {
+    background-color: #767676;
+}
+
+/* Header body */
+
+.header-body {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    display: flex;
+    flex-direction: row;
+}
+
+.titles {
+    top: 40%;
+    left: 0%;
+    transform: translate(0%,20%);
+    text-align: left;
+}
+
+.titles h1 {
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.titles p {
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+/* Second section */
+
+.second-section {
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+/* Third section */
+
+.third-section {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/robot.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Footer */
+
+.footer {
+    min-height: 30vh;
+    width: 100%;
+    background-color: var(--color2);
+}
