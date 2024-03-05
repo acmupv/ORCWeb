@@ -118,7 +118,62 @@ nav {
 /* Footer */
 
 .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
     min-height: 30vh;
     width: 100%;
-    background-color: var(--color2);
+    column-gap: 10px;
+    background-color: var(--color4);
+    opacity: 80%;
+    
+    
+}
+.footer-socials {
+    min-width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 320px;
+    
+    border-radius: 25px;
+    margin: 20px;
+    background-color: var(--color1);
+    padding-right: 20px;
+
+}
+
+@media (min-width: 1000px) {
+    .footer-socials li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .footer-socials {
+        width: 60%;
+        max-width: 700px;
+    }
+}
+
+.footer-socials li {
+    list-style: none;
+    margin-top: 5px;
+    font-weight: bold;
+    
+}
+
+.footer-socials a:hover {
+    color: var(--color4);
+    
+}
+
+
+.acm-logo {
+    width: 180px;
+}
+
+.makers-logo {
+    width: 200px
+    
 }
