@@ -121,7 +121,7 @@ nav {
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 
     min-height: 30vh;
@@ -135,28 +135,36 @@ nav {
    
     display: flex;
     flex-direction: column;
-
+    
     align-items: center;
-    width: 170px;
+    width: 190px;
     
    
 
 }
 .footer-title {
     margin: 10px 0px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
     font-weight: 600;
 }
 
 @media (min-width: 1000px) {
-    .footer-socials li{
+    /*.footer-socials li{
         display: inline-block;
         margin-right: 10px;
-    }
-    .footer-socials {
+    }*/
+    /*.footer-socials {
         width: 60%;
         max-width: 700px;
+    }*/
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items:center;
+        row-gap: 20px;
     }
 }
 .vl {
@@ -176,17 +184,35 @@ nav {
 .footer-socials li {
     list-style: none;
     margin-top: 5px;
-    font-weight: bold;
+    
+
     
 }
+.socials-div ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.socials-div li{
+    
+    font-weight: bold;
+    display: inline;
+    font-size: 1rem;
+    align-items: center;
+}
+
 .footer-socials li a {
     color: var(--fontColor1);
     opacity: 80%;
-    font-size: 1rem
+    font-size: 1.2rem
 }
 
-.footer-socials a:hover {
-    
+.socials-div li a {
+    font-size: 1rem;
+}
+
+.fa {
+    scale: 1.5;
 }
 
 
@@ -199,4 +225,17 @@ nav {
     top: 20px;
     width: 100px
     
+}
+.logo-cover {
+    border-radius: 0;
+    
+}
+.logo-cover:hover {
+    background-color: #cecece;
+    transition: 0.3s
+}
+
+.x-logo {
+    position: relative;
+    top: 1px
 }
