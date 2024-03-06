@@ -217,6 +217,8 @@ nav {
 
 
 .acm-logo {
+    position: relative;
+    top: -10px;
     width: 100px;
 }
 
@@ -227,12 +229,8 @@ nav {
     
 }
 .logo-cover {
-    border-radius: 0;
+    height: 80px
     
-}
-.logo-cover:hover {
-    background-color: #cecece;
-    transition: 0.3s
 }
 
 .x-logo {
