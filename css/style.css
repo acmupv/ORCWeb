@@ -96,8 +96,22 @@ nav {
 /* Second section */
 
 .second-section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
+    padding: 10vh;
+    line-height: 200%;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.second-section-pregunta{
+    margin-bottom: 25px;
+    margin-top: 25px;
+
 }
 
 
