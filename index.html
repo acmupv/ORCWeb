@@ -5,38 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" class="res">
     <link rel="stylesheet" href="./css/gradients.css" class="res">
+    <script src="https://kit.fontawesome.com/094d8d7db9.js" crossorigin="anonymous"></script>
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <title>ORC</title>
 </head>
 <body>
+  
+    <div class="nav" id="nav">
+        <a class = "logo" href="index.html">ORC</a> <!-- Aquí va el logo -->
+        <ul class="nav-links">
+            <li><a href="#" class="nav-button">Equipo</a></li>
+            <li><a href="retos.html" class="nav-button">Retos</a></li>
+            <li><a href="#" class="nav-button">Calendario</a></li>
+            <li><a href="https://docs.google.com/forms/d/1-GG4jfs8V_4SNcSYxb2LY-yjqomBWsSHNVS87-mgDyQ/edit" target="_blank" class="form-button">Apúntate</a></li>
+        </ul>
+        <label for="check" class="icon-class">
+            <i class="fas fa-bars" id="btn"></i>
+            <!-- <i class="fas fa-times" id="cancel"></i> -->
+        </label>
+    </div>
+
     <section class="header">
-        <nav>
-            <a href="index.html">ORC</a> <!-- Aquí va el logo -->
-            <ul class="nav-links">
-                <li><a href="#" class="nav-button">Equipo</a></li>
-                <li><a href="retos.html" class="nav-button">Retos</a></li>
-                <li><a href="#" class="nav-button">Calendario</a></li>
-                <li><a href="https://docs.google.com/forms/d/1-GG4jfs8V_4SNcSYxb2LY-yjqomBWsSHNVS87-mgDyQ/edit" target="_blank" class="form-button">Apúntate</a></li>
-            </ul>
-        </nav>
         <div class="header-body">
             <div class="titles">
-                <h1>Olympic Robot <br> Champion</h1>
+                <h1>Olympic Robotic <br> Challenge</h1>
                 <p>Bienvenidos a una nueva edición del ORC, una colaboración de Makers y ACM.</p>
                 <!-- <a href=""#>Apúntate</a> -->
             </div>
-            <div class="blob-cont">
+            <!-- <div class="blob-cont">
                 <div class="yellow blob"></div>
                 <div class="blue blob"></div>
                 <div class="green blob"></div>
-            </div>
+            </div> -->
         </div>
     </section>
+
     <section class="second-section">
         <h3 class="second-section-pregunta">
             ¿Qué es Makers UPV?
@@ -61,12 +68,14 @@
         
         </p>
 
+
+
     </section>
     <section class="third-section">
 
     </section>
     <section class="footer">
-        <div class="footer-socials">
+<div class="footer-socials">
             <p class="titles footer-title">Información</p>
             <ul>
                <li><a href="#">Equipos</a></li>
@@ -108,5 +117,7 @@
         <div class="logos ">
         </div>
     </section>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
