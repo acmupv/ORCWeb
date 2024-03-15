@@ -52,7 +52,7 @@
     cursor: pointer;
     font-size: 16px;
     border-radius: 20px;
-    padding: 6px 12px;
+    padding: 5px 13px;
     transition: 0.3s;
 }
 
@@ -65,7 +65,7 @@
     background-color: var(--fontColor1);
 }
 
-.button:hover {
+.form-button:hover {
     background-color: #767676;
 }
 
