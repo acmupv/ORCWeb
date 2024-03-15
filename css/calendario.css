@@ -11,7 +11,7 @@
   }
 
   .section-calendar {
-    margin: 75px;
+    margin: 150px 75px;
   }
   
   .calendar {
@@ -106,7 +106,7 @@
 
   @media screen and (max-width: 900px) {
     .section-calendar {
-      margin: 0px;
+      margin: 100px 0px;
     }
 
     .days {
@@ -132,11 +132,11 @@
 
   @media screen and (max-width: 600px) {
     .calendar {
-      margin: 15px;
+      margin: 10px;
     }
 
     .days {
-      grid-template-columns: repeat(auto-fit, minmax(75px, 1fr))
+      grid-template-columns: repeat(auto-fit, minmax(65px, 1fr))
     }
 
     .time-marker {
@@ -148,7 +148,7 @@
     }
 
     .event {
-      font-size: 10px;
+      font-size: 9px;
     }
 
     .date {
