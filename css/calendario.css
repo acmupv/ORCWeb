@@ -2,16 +2,31 @@
     --numDays: 5;
     --numHours: 8;
     --timeHeight: 60px;
-    --calBgColor: #fff1f8;
-    --eventBorderColor: #f2d3d8;
-    --eventColor1: #ffd6d1;
-    --eventColor2: #fafaa3;
-    --eventColor3: #e2f8ff;
-    --eventColor4: #d1ffe6;
+    --calBgColor: #1F60A3;
+    /* --eventBorderColor: #f2d3d8; */
+    --eventColor1: #78B89F;
+    --eventColor2: #B0D786;
+    --eventColor3: #4C9BCD;
+  }
+
+  .title-calendar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 200px 0% 0% 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 15px;
   }
 
   .section-calendar {
-    margin: 150px 75px;
+    margin: 0px 75px;
   }
   
   .calendar {
@@ -31,6 +46,10 @@
     grid-column: 2;
     gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .events div p {
+    color: #fefdfb;
   }
   
   .events {
@@ -59,7 +78,7 @@
   }
   
   .event {
-    border: 1px solid var(--eventBorderColor);
+    /* border: 1px solid var(--eventBorderColor); */
     border-radius: 5px;
     padding: 0.5rem;
     margin: 0 0.5rem;
@@ -80,11 +99,11 @@
   }
   
   .primer-dia {
-    background: var(--eventColor3);
+    background: var(--eventColor2);
   }
   
   .dias-reto {
-    background: var(--eventColor4);
+    background: var(--eventColor3);
   }
   
   .date {

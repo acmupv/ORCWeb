@@ -10,18 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <title>ORC</title>
 </head>
 <body>
   
-    <div class="nav" id="nav">
-        <a class = "logo" href="index.html">ORC</a> <!-- Aquí va el logo -->
+    <div class="nav" id="nav-change">
+        <a class="logo" href="index.html"><img class="logo-img" src="./img/ORC.png"></a>
         <ul class="nav-links">
             <li><a href="#" class="nav-button">Equipo</a></li>
             <li><a href="./retos/retos.html" class="nav-button">Retos</a></li>
             <li><a href="./calendario/calendario.html" class="nav-button">Calendario</a></li>
-            <li><a href="https://docs.google.com/forms/d/1-GG4jfs8V_4SNcSYxb2LY-yjqomBWsSHNVS87-mgDyQ/edit" target="_blank" class="form-button">Apúntate</a></li>
+            <li class="form-button-bg"><a href="https://docs.google.com/forms/d/1-GG4jfs8V_4SNcSYxb2LY-yjqomBWsSHNVS87-mgDyQ/edit" target="_blank" class="form-button">Apúntate</a></li>
         </ul>
         <label for="check" class="icon-class">
             <i class="fas fa-bars" id="btn"></i>
@@ -29,7 +29,7 @@
         </label>
     </div>
 
-    <section class="header">
+    <section class="header" id="header">
         <div class="header-body">
             <div class="titles">
                 <h1>Olympic Robotic <br> Challenge</h1>
@@ -45,7 +45,7 @@
     </section>
 
     <section class="second-section">
-        <h3 class="second-section-pregunta">
+        <!-- <h3 class="second-section-pregunta">
             ¿Qué es Makers UPV?
         </h3>
         <p class="second-section-respuesta">
@@ -57,8 +57,8 @@
         </h3>
         <p class="second-section-respuesta">
             Es una sección de la organización internacional para la promoción de la informática en la UPV, compuesta principalmente por estudiantes de la ETSINF.
-        </p>
-        <h3 class="second-section-pregunta">¿Qué es ACM-Makers ORC?</h3>
+        </p> -->
+        <h3 class="second-section-pregunta">¿Qué es el ORC?</h3>
         <p class="second-section-respuesta">
             Este año MakersUPV colaborará con ACM para celebrar un año más la Olympic Robotic Challenge, la mayor competición de robótica que se celebra en la Universitat Politècnica de València.
             
@@ -84,14 +84,10 @@
             </ul>
         </div>
         <div class="footer-socials socials-div">
-            <!-- <p class="titles footer-title">Contacto ACM</p> -->
             <div class="logo-cover"><a target="_blank" href="https://www.acm.webs.upv.es"><img class="acm-logo" src="./img/acmLogo.png" ></a></div>
 
             <ul>
-                <li><a target="_blank" href="https://twitter.com/acmupv">
-                    <svg class="x-logo" xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
-
-                </a></li>
+                <li><a target="_blank" class="fa-brands fa-x-twitter" href="https://twitter.com/acmupv"></a></li>
                 <li><a target="_blank" class="fa fa-github" href="https://github.com/acmupv"></a></li>
                 <li><a target="_blank" class="fa fa-linkedin" href="https://es.linkedin.com/company/acmupv"></a></li>
                 <li><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/acmupv/"></a></li>
@@ -99,15 +95,10 @@
         </div>
 
         <div class="footer-socials socials-div">
-            <!-- <p class="titles footer-title">Contacto Makers</p> -->
             <div class="logo-cover"><a target="_blank" href="https://makersupv.com"><img class="makers-logo" src="./img/makersLogo.png" ></a></div>
 
             <ul>
-                <li><a target="_blank" href="https://twitter.com/MakersUPV">
-
-                    <svg class="x-logo" xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
-
-                </a></li>
+                <li><a target="_blank" class="fa-brands fa-x-twitter" href="https://twitter.com/acmupv"></a></li>
                 <li><a target="_blank" class="fa fa-github" href="https://github.com/makers-upv"></a></li>
                 <li><a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/groups/Makers-UPV-8123860" ></a></li>
                 <li><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/makersupv/"></a></li>
