@@ -1,0 +1,99 @@
+/* Intro */
+.intro {
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 30px;
+}
+
+.intro h3 {
+    font-size: 15px;
+}
+
+
+/* Groups */
+
+.groups {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 5% 10%;
+}
+
+.group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.groups div img {
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.acm {
+    color: var(--color1);
+}
+
+.makers {
+    color: var(--color3);
+}
+
+.acm, .makers {
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .intro {
+        margin-top: 20%;
+    }
+
+    .intro h1 {
+        font-size: 20px;
+    }
+
+    .intro h3 {
+        font-size: 12px;
+        padding: 2px 10px 0px 10px;
+    }
+
+    .group {
+        flex-direction: column;
+    }
+
+    .group-makers {
+        flex-direction: column-reverse;
+    }
+
+    .text {
+        width: 100%;
+        font-size: 12px;
+        /* text-align: center; */
+    }
+
+    .groups div img {
+        width: 100%;
+    }
+
+    .group {
+        margin-top: 10px;
+    }
+
+}
