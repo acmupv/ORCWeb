@@ -125,7 +125,7 @@
 
   @media screen and (max-width: 900px) {
     .section-calendar {
-      margin: 100px 0px;
+      margin: 50px 0px;
     }
 
     .days {
@@ -152,6 +152,10 @@
   @media screen and (max-width: 600px) {
     .calendar {
       margin: 10px;
+    }
+
+    .intro h3 {
+      width: auto;
     }
 
     .days {
