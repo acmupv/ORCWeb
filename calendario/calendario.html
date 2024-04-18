@@ -1,25 +1,26 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="../css/style.css" class="res">
-      <link rel="stylesheet" href="../css/calendario.css" class="res">
-      <script src="https://kit.fontawesome.com/094d8d7db9.js" crossorigin="anonymous"></script>
-      <!-- Poppins Font -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <title>ORC</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" class="res">
+    <link rel="stylesheet" href="../css/equipo.css" class="res">
+    <link rel="stylesheet" href="../css/calendario.css" class="res">
+    <script src="https://kit.fontawesome.com/094d8d7db9.js" crossorigin="anonymous"></script>
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ORC</title>
+</head>
+<body>
     <div class="nav" id="nav">
-      <a class="logo" href="../index.html"><img class="logo-img" src="../img/ORC.png"></a>
+        <a class="logo" href="../index.html"><img class="logo-img" src="../img/ORC.png"></a>
         <ul class="nav-links">
             <li><a href="../equipo/equipo.html" class="nav-button">Equipo</a></li>
             <li><a href="../retos/retos.html" class="nav-button">Retos</a></li>
-            <li><a href="./calendario.html" class="nav-button">Calendario</a></li>
+            <li><a href="../calendario/calendario.html" class="nav-button">Calendario</a></li>
             <li><a href="https://docs.google.com/forms/d/1-GG4jfs8V_4SNcSYxb2LY-yjqomBWsSHNVS87-mgDyQ/edit" target="_blank" class="form-button">Apúntate</a></li>
         </ul>
         <label for="check" class="icon-class">
@@ -27,178 +28,177 @@
             <!-- <i class="fas fa-times" id="cancel"></i> -->
         </label>
     </div>
-    <div class="title-calendar">
-      <h3>
-        ¡Bienvenido! <br>
-        Aquí encontrarás un calendario completo con la organización de la competición que se realizará desde el 2 al 9 de Mayo.
-      </h3>
-    </div>
-      <section class="section-calendar">
-        <div class="calendar">
-            <div class="timeline">
-              <div class="spacer"></div>
-              <div class="time-marker">15.00</div>
-              <div class="time-marker">16.00</div>
-              <div class="time-marker">17.00</div>
-              <div class="time-marker">18.00</div>
-              <div class="time-marker">19.00</div>
-              <div class="time-marker">20.00</div>
-              <div class="time-marker">21.00</div>
-            </div>
-            <div class="days">
-              <div class="day mon">
-                <div class="date">
-                  <p class="date-num">2</p>
-                  <p class="date-day">Jue</p>
-                </div>
-                <div class="events">
-                  <div class="event start-4 end-8 primer-dia">
-                    <p class="title">Presentación</p>
-                    <p class="time">16.00 h - 20.00 h</p>
-                    <p class="time">LUGAR: Calum (Ximo Mora)<br>
-                    Prestación material y reparto pruebas</p>
-                  </div>
-                </div>
+    <section class="intro">
+      <h1>Calendario</h1>
+      <h3>La competición tendrá lugar del 2 al 9 de mayo </h3>
+  </section>
+    <section class="section-calendar">
+      <div class="calendar">
+          <div class="timeline">
+            <div class="spacer"></div>
+            <div class="time-marker">15.00</div>
+            <div class="time-marker">16.00</div>
+            <div class="time-marker">17.00</div>
+            <div class="time-marker">18.00</div>
+            <div class="time-marker">19.00</div>
+            <div class="time-marker">20.00</div>
+            <div class="time-marker">21.00</div>
+          </div>
+          <div class="days">
+            <div class="day mon">
+              <div class="date">
+                <p class="date-num">2</p>
+                <p class="date-day">Jue</p>
               </div>
-              <div class="day tues">
-                <div class="date">
-                  <p class="date-num">3</p>
-                  <p class="date-day">Vie</p>
-                </div>
-                <div class="events">
-                    <div class="event start-4 end-9 dias-reto">
-                        <p class="title">Día 1</p>
-                        <p class="time">16.00 h - 21.00 h</p>
-                        <p class="time">LUGAR: ETSID</p>
-                      </div>
-                </div>
-              </div>
-              <div class="day wed">
-                <div class="date">
-                  <p class="date-num">4</p>
-                  <p class="date-day">Sab</p>
-                </div>
-                <div class="events">
-                    <div class="event start-4 end-9 dias-reto">
-                        <p class="title">Día 2</p>
-                        <p class="time">16.00 h - 21.00 h</p>
-                        <p class="time">LUGAR: Calum (Ximo Mora)</p>
-                      </div>
-                </div>
-              </div>
-              <div class="day fri">
-                <div class="date">
-                  <p class="date-num">5</p>
-                  <p class="date-day">Dom</p>
-                </div>
-                <div class="events">
+              <div class="events">
+                <div class="event start-4 end-8 primer-dia">
+                  <p class="title">Presentación</p>
+                  <p class="time">16.00 h - 20.00 h</p>
+                  <p class="time">LUGAR: Calum (Ximo Mora)<br>
+                  Prestación material y reparto pruebas</p>
                 </div>
               </div>
             </div>
-          </div>
-
-            <div class="calendar">
-                <div class="timeline">
-                  <div class="spacer"></div>
-                  <div class="time-marker">15.00</div>
-                  <div class="time-marker">16.00</div>
-                  <div class="time-marker">17.00</div>
-                  <div class="time-marker">18.00</div>
-                  <div class="time-marker">19.00</div>
-                  <div class="time-marker">20.00</div>
-                  <div class="time-marker">21.00</div>
-                </div>
-                <div class="days">
-                  <div class="day mon">
-                    <div class="date">
-                      <p class="date-num">6</p>
-                      <p class="date-day">Lun</p>
+            <div class="day tues">
+              <div class="date">
+                <p class="date-num">3</p>
+                <p class="date-day">Vie</p>
+              </div>
+              <div class="events">
+                  <div class="event start-4 end-9 dias-reto">
+                      <p class="title">Día 1</p>
+                      <p class="time">16.00 h - 21.00 h</p>
+                      <p class="time">LUGAR: ETSID</p>
                     </div>
-                    <div class="events">
-                        <div class="event start-4 end-9 dias-reto">
-                            <p class="title">Día 3</p>
-                            <p class="time">16.00 h - 21.00 h</p>
-                            <p class="time">LUGAR: ETSINF)</p>
-                          </div>
-                    </div>
-                  </div>
-                  <div class="day tues">
-                    <div class="date">
-                      <p class="date-num">7</p>
-                      <p class="date-day">Mar</p>
-                    </div>
-                    <div class="events">
-                        <div class="event start-4 end-9 dias-reto">
-                            <p class="title">Día 4</p>
-                            <p class="time">16.00 h - 21.00 h</p>
-                            <p class="time">LUGAR: ETSID</p>
-                          </div>
-                    </div>
-                  </div>
-                  <div class="day wed">
-                    <div class="date">
-                      <p class="date-num">8</p>
-                      <p class="date-day">Mie</p>
-                    </div>
-                    <div class="events">
-                        <div class="event start-4 end-9 dias-reto">
-                            <p class="title">Día 5</p>
-                            <p class="time">16.00 h - 21.00 h</p>
-                            <p class="time">LUGAR: ETSINF</p>
-                          </div>
-                    </div>
-                  </div>
-                  <div class="day fri">
-                    <div class="date">
-                      <p class="date-num">9</p>
-                      <p class="date-day">Jue</p>
-                    </div>
-                    <div class="events">
-                        <div class="event start-4 end-9 final">
-                            <p class="title">FINAL</p>
-                            <p class="time">16.00 h - 21.00 h</p>
-                            <p class="time">LUGAR: Calum (Hall del Calum)</p>
-                          </div>
-                    </div>
-                  </div>
-                </div>
+              </div>
             </div>
-
-      </section>
-      <section class="footer">
-          <div class="footer-socials">
-              <p class="titles footer-title">Información</p>
-              <ul>
-                <li><a href="../equipo/equipo.html">Equipos</a></li>
-                <li><a href="../retos/retos.html">Retos</a></li> 
-                <li><a href="calendario.html">Calendario</a></li> 
-              </ul>
+            <div class="day wed">
+              <div class="date">
+                <p class="date-num">4</p>
+                <p class="date-day">Sab</p>
+              </div>
+              <div class="events">
+                  <div class="event start-4 end-9 dias-reto">
+                      <p class="title">Día 2</p>
+                      <p class="time">16.00 h - 21.00 h</p>
+                      <p class="time">LUGAR: Calum (Ximo Mora)</p>
+                    </div>
+              </div>
+            </div>
+            <div class="day fri">
+              <div class="date">
+                <p class="date-num">5</p>
+                <p class="date-day">Dom</p>
+              </div>
+              <div class="events">
+              </div>
+            </div>
           </div>
-          <div class="footer-socials socials-div">
-              <div class="logo-cover"><a target="_blank" href="https://www.acm.webs.upv.es"><img class="acm-logo" src="../img/acmLogo.png" ></a></div>
+        </div>
 
-              <ul>
-                  <li><a target="_blank" class="fa-brands fa-x-twitter" href="https://twitter.com/acmupv"></a></li>                 
-                  <li><a target="_blank" class="fa fa-github" href="https://github.com/acmupv"></a></li>
-                  <li><a target="_blank" class="fa fa-linkedin" href="https://es.linkedin.com/company/acmupv"></a></li>
-                  <li><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/acmupv/"></a></li>
-              </ul>
+          <div class="calendar">
+              <div class="timeline">
+                <div class="spacer"></div>
+                <div class="time-marker">15.00</div>
+                <div class="time-marker">16.00</div>
+                <div class="time-marker">17.00</div>
+                <div class="time-marker">18.00</div>
+                <div class="time-marker">19.00</div>
+                <div class="time-marker">20.00</div>
+                <div class="time-marker">21.00</div>
+              </div>
+              <div class="days">
+                <div class="day mon">
+                  <div class="date">
+                    <p class="date-num">6</p>
+                    <p class="date-day">Lun</p>
+                  </div>
+                  <div class="events">
+                      <div class="event start-4 end-9 dias-reto">
+                          <p class="title">Día 3</p>
+                          <p class="time">16.00 h - 21.00 h</p>
+                          <p class="time">LUGAR: ETSINF</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="day tues">
+                  <div class="date">
+                    <p class="date-num">7</p>
+                    <p class="date-day">Mar</p>
+                  </div>
+                  <div class="events">
+                      <div class="event start-4 end-9 dias-reto">
+                          <p class="title">Día 4</p>
+                          <p class="time">16.00 h - 21.00 h</p>
+                          <p class="time">LUGAR: ETSID</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="day wed">
+                  <div class="date">
+                    <p class="date-num">8</p>
+                    <p class="date-day">Mie</p>
+                  </div>
+                  <div class="events">
+                      <div class="event start-4 end-9 dias-reto">
+                          <p class="title">Día 5</p>
+                          <p class="time">16.00 h - 21.00 h</p>
+                          <p class="time">LUGAR: ETSINF</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="day fri">
+                  <div class="date">
+                    <p class="date-num">9</p>
+                    <p class="date-day">Jue</p>
+                  </div>
+                  <div class="events">
+                      <div class="event start-4 end-9 final">
+                          <p class="title">FINAL</p>
+                          <p class="time">16.00 h - 21.00 h</p>
+                          <p class="time">LUGAR: Calum (Hall del Calum)</p>
+                        </div>
+                  </div>
+                </div>
+              </div>
           </div>
 
-          <div class="footer-socials socials-div">
-              <div class="logo-cover"><a target="_blank" href="https://makersupv.com"><img class="makers-logo" src="../img/makersLogo.png" ></a></div>
+    </section>
 
-              <ul>
-                  <li><a target="_blank" class="fa-brands fa-x-twitter" href="https://twitter.com/acmupv"></a></li>
-                  <li><a target="_blank" class="fa fa-github" href="https://github.com/makers-upv"></a></li>
-                  <li><a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/groups/Makers-UPV-8123860" ></a></li>
-                  <li><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/makersupv/"></a></li>
+    <section class="footer">
+        <div class="footer-socials">
+            <p class="titles footer-title">Información</p>
+            <ul>
+               <li><a href="equipo.html">Equipos</a></li>
+               <li><a href="../retos/retos.html">Retos</a></li> 
+               <li><a href="../calendario/calendario.html">Calendario</a></li> 
+            </ul>
+        </div>
+        <div class="footer-socials socials-div">
+            <div class="logo-cover"><a target="_blank" href="https://www.acm.webs.upv.es"><img class="acm-logo" src="../img/acmLogo.png" ></a></div>
 
-              </ul>
-          </div>
-          <div class="logos ">
-          </div>
-      </section>
-      <script src="../js/index.js"></script>
-  </body>
-  </html>
+            <ul>
+                <li><a target="_blank" class="fa-brands fa-x-twitter" href="https://twitter.com/acmupv"></a></li>
+                <li><a target="_blank" class="fa fa-github" href="https://github.com/acmupv"></a></li>
+                <li><a target="_blank" class="fa fa-linkedin" href="https://es.linkedin.com/company/acmupv"></a></li>
+                <li><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/acmupv/"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-socials socials-div">
+            <div class="logo-cover"><a target="_blank" href="https://makersupv.com"><img class="makers-logo" src="../img/makersLogo.png" ></a></div>
+
+            <ul>
+                <li><a target="_blank" class="fa-brands fa-x-twitter" href="https://twitter.com/acmupv"></a></li>
+                <li><a target="_blank" class="fa fa-github" href="https://github.com/makers-upv"></a></li>
+                <li><a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/groups/Makers-UPV-8123860" ></a></li>
+                <li><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/makersupv/"></a></li>
+
+            </ul>
+        </div>
+        <div class="logos ">
+        </div>
+    </section>
+    <script src="../js/index.js"></script>
+</body>
+</html>
