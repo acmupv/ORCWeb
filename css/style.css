@@ -1,5 +1,5 @@
 :root {
-    --color1: #094d91;
+    --color1: #296bad;
     --color2: #97C575;
     --color3: #ffe600;
     --fontColor1: #000000;
@@ -130,7 +130,7 @@ html, body {
     }
 
     .nav-button {
-        color: var(--color2);
+        color: var(--color1);
     }
 
     .nav-button:hover {
@@ -138,12 +138,12 @@ html, body {
     }
     
     .form-button {
-        background-color: var(--color2);
+        background-color: var(--color1);
         color: var(--fontColor2);
     }
     
     .form-button:hover {
-        background-color: #96ab75;
+        background-color: #51a5d5;
         color: var(--fontColor2);
     }
     
@@ -206,23 +206,121 @@ html, body {
 
 .second-section {
     /* min-height: 100vh; */
-    z-index: 100;
-    width: 100%;
-    padding: 10vh;
-    line-height: 200%;
-
-    display: flex;
-    flex-flow: column;
+    margin: 10px;
     align-items: center;
     justify-content: center;
-    text-align: justify;
+    padding: 7% 0 0 0;
 }
 
-.second-section-pregunta{
+.second-section h2 {
     margin-bottom: 25px;
     margin-top: 25px;
-
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--color1);
 }
+
+.second-section-respuesta {
+    margin-bottom: 20px;
+    padding: 0 7% 0 7%;
+}
+
+.second-section h2, .second-section p {
+    text-align: center;
+}
+
+.second-section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.second-section div div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 3%;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 0.3s;
+}
+
+.container:hover{
+    transform: scale(1.05); 
+}
+
+.container p {
+    margin: 10px 0 10px 0;
+    text-align: left;
+}
+
+.container h3 {
+    font-weight: 400;
+    color: var(--color1);
+}
+
+.container button {
+    font-weight: 300;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    background-color: var(--color1);
+}
+
+.container button:hover {
+    background-color: #6c99c6;
+}
+
+.container button a {
+    color: var(--fontColor2);
+}
+
+/* Third section */
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+.third-section h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--color1);
+}
+
+.third-section button {
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 15px 8px 15px;
+    background-color: var(--color1);
+}
+
+.third-section button:hover {
+    background-color: #6c99c6;
+}
+
+.third-section button a {
+    color: var(--fontColor2);
+}
+
+.third-section p {
+    margin: 20px 0 20px 0;
+    padding: 0 7% 0 7%;
+    text-align: center;
+}
+
+/* Responsive of all sections */
 
 @media screen and (max-width: 1000px) {
     .titles h1 {
@@ -235,7 +333,7 @@ html, body {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
     .titles h1 {
         font-size: 50px;
     }
@@ -244,17 +342,40 @@ html, body {
         font-size: 15px;
     }
 
-}
+    .second-section div {
+        flex-direction: column;
+    }
 
-/* Third section */
+    .second-section-pregunta, .third-section h2 {
+        font-size: 30px;
+    }
 
-.third-section {
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/robot.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    .second-section-respuesta, .third-section p {
+        padding: 0 8px 0 8px;
+    }
+
+    .container p, .second-section p, .third-section p {
+        font-size: 13px;
+    }
+    
+    .container h3 {
+        font-size: 15px;
+    }
+
+    .container button {
+        font-size: 10px;
+    }
+
+    .second-section div {
+        align-items: center;
+    }
+
+    .third-section button {
+        font-weight: 200;
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 5px 10px 5px 10px;
+    }
 }
 
 /* Footer */
